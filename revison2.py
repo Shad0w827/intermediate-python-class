@@ -17,7 +17,7 @@ else:
 print("before use of function")
 a = 9
 b = 10
-a + b = c
+c = a + b
 print(c)
 a = 8
 b = 5
@@ -26,10 +26,10 @@ print(c)
 a = 7
 b = 9
 c = a + b
-princ(c)
+print(c)
 print("after use of function")
 def add(a,b):
-    c = a + b:
+    c = a + b
     print(c)
     add(9,10)
     add(8,5)

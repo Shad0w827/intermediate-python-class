@@ -7,7 +7,7 @@ start_learning = True #boolean
 #float to integer conversion
 
 score = 3.88
-print(int(score)
+print(int(score))
       
 
 #integer to float conversion
@@ -38,6 +38,7 @@ count = 10
 i = 1
 sum = 0 
 while count > 0:
-sum = sum + 1
+    sum = sum + i
+    count-=1
+    i += 1
 print(sum)
-count-=1
